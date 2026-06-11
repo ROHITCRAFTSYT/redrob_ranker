@@ -30,7 +30,7 @@ Runtime: ~50–70s for 100k candidates on a CPU laptop. No GPU, no API calls.
    re-evaluate. Keep changes that raise the composite. This is your whole loop.
 5. Extend `honeypot.py` with any new impossibility you find while labeling.
 
-## Approach (1 paragraph — REWRITE IN YOUR OWN WORDS before submitting)
+## Approach 
 The JD is built to defeat keyword matching, so the ranker is primarily a faithful
 encoding of the JD's explicit preferences and disqualifiers, with TF-IDF lexical
 similarity as a supporting signal. Per candidate: a relevance score combines
