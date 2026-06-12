@@ -14,6 +14,8 @@ The result is a transparent, deterministic, fully reproducible ranker that runs 
 
 ## Architecture
 
+![System Architecture](architecture.png)
+
 ```
 final_score = relevance × behavioral_modifier
 ```
